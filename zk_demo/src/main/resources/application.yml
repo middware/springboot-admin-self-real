@@ -1,0 +1,27 @@
+server:
+   port: 8081
+
+spring:
+  application:
+    name: server-zk
+  cloud:
+    zookeeper:
+      discovery:
+        root: /zk-service
+        register: false
+        connect-string: localhost:2181
+        metadata:
+                      # management.context-path: /foo
+                      # health.path: /ping
+                       user.name: zy
+                       user.password: zy
+  security:
+    user:
+      name: zy
+      password: zy
+  management:
+   endpoints:
+     web:
+       #base-path: "/actuator"
+       exposure:
+         include: "*"

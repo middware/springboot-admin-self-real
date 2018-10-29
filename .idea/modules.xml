@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin.iml" filepath="$PROJECT_DIR$/spring-boot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-client/spring-boot-admin-client.iml" filepath="$PROJECT_DIR$/spring-boot-admin-client/spring-boot-admin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin-server.iml" filepath="$PROJECT_DIR$/spring-boot-admin-server/spring-boot-admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-server-cloud/spring-boot-admin-server-cloud.iml" filepath="$PROJECT_DIR$/spring-boot-admin-server-cloud/spring-boot-admin-server-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-admin-server-ui/spring-boot-admin-server-ui.iml" filepath="$PROJECT_DIR$/spring-boot-admin-server-ui/spring-boot-admin-server-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zk_demo/zk_demo.iml" filepath="$PROJECT_DIR$/zk_demo/zk_demo.iml" />
+    </modules>
+  </component>
+</project>

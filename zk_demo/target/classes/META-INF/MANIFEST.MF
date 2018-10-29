@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: zk_demo
+Implementation-Version: 2.1.0-SNAPSHOT
+Built-By: viruser
+Implementation-Vendor-Id: de.codecentric.zy
+Build-Jdk: 1.8.0_144
+Implementation-URL: https://github.com/codecentric/spring-boot-admin/z
+ k_demo/
+Created-By: Maven Integration for Eclipse
+

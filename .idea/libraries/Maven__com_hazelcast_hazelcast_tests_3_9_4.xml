@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.hazelcast:hazelcast:tests:3.9.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../mvnRepo/com/hazelcast/hazelcast/3.9.4/hazelcast-3.9.4-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../mvnRepo/com/hazelcast/hazelcast/3.9.4/hazelcast-3.9.4-test-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../mvnRepo/com/hazelcast/hazelcast/3.9.4/hazelcast-3.9.4-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

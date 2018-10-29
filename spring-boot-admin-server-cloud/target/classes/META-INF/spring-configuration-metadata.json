@@ -1,0 +1,61 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "de.codecentric.boot.admin.server.cloud.config.AdminServerDiscoveryAutoConfiguration",
+      "name": "spring.boot.admin.discovery",
+      "sourceMethod": "public de.codecentric.boot.admin.server.cloud.discovery.InstanceDiscoveryListener instanceDiscoveryListener(de.codecentric.boot.admin.server.cloud.discovery.ServiceInstanceConverter, org.springframework.cloud.client.discovery.DiscoveryClient, de.codecentric.boot.admin.server.services.InstanceRegistry, de.codecentric.boot.admin.server.domain.entities.InstanceRepository) ",
+      "type": "de.codecentric.boot.admin.server.cloud.discovery.InstanceDiscoveryListener"
+    },
+    {
+      "sourceType": "de.codecentric.boot.admin.server.cloud.config.AdminServerDiscoveryAutoConfiguration$EurekaConverterConfiguration",
+      "name": "spring.boot.admin.discovery.converter",
+      "sourceMethod": "public de.codecentric.boot.admin.server.cloud.discovery.EurekaServiceInstanceConverter serviceInstanceConverter() ",
+      "type": "de.codecentric.boot.admin.server.cloud.discovery.EurekaServiceInstanceConverter"
+    },
+    {
+      "sourceType": "de.codecentric.boot.admin.server.cloud.config.AdminServerDiscoveryAutoConfiguration",
+      "name": "spring.boot.admin.discovery.converter",
+      "sourceMethod": "public de.codecentric.boot.admin.server.cloud.discovery.DefaultServiceInstanceConverter serviceInstanceConverter() ",
+      "type": "de.codecentric.boot.admin.server.cloud.discovery.DefaultServiceInstanceConverter"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "de.codecentric.boot.admin.server.cloud.discovery.EurekaServiceInstanceConverter",
+      "name": "spring.boot.admin.discovery.converter.health-endpoint-path",
+      "description": "Default path of the health-endpoint to be used for the health-url of the discovered service.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "de.codecentric.boot.admin.server.cloud.discovery.DefaultServiceInstanceConverter",
+      "name": "spring.boot.admin.discovery.converter.health-endpoint-path",
+      "description": "Default path of the health-endpoint to be used for the health-url of the discovered service.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "de.codecentric.boot.admin.server.cloud.discovery.EurekaServiceInstanceConverter",
+      "name": "spring.boot.admin.discovery.converter.management-context-path",
+      "description": "Default context-path to be appended to the url of the discovered service for the managment-url.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "de.codecentric.boot.admin.server.cloud.discovery.DefaultServiceInstanceConverter",
+      "name": "spring.boot.admin.discovery.converter.management-context-path",
+      "description": "Default context-path to be appended to the url of the discovered service for the managment-url.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "de.codecentric.boot.admin.server.cloud.discovery.InstanceDiscoveryListener",
+      "name": "spring.boot.admin.discovery.ignored-services",
+      "description": "Set of serviceIds to be ignored and not to be registered as application. Supports simple patterns (e.g. \"foo*\", \"*foo\", \"foo*bar\").",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "de.codecentric.boot.admin.server.cloud.discovery.InstanceDiscoveryListener",
+      "name": "spring.boot.admin.discovery.services",
+      "description": "Set of serviceIds that has to match to be registered as application. Supports simple patterns (e.g. \"foo*\", \"*foo\", \"foo*bar\"). Default value is everything",
+      "type": "java.util.Set<java.lang.String>"
+    }
+  ]
+}
