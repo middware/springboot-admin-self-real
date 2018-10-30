@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de308997-5b1d-4011-ad14-ce0871a59c93" name="Default" comment="" />
+    <list default="true" id="de308997-5b1d-4011-ad14-ce0871a59c93" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/config/AdminServerUiAutoConfiguration$ReactiveUiConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/config/AdminServerUiAutoConfiguration$ServletUiConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/config/AdminServerUiAutoConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/config/AdminServerUiProperties$Cache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/config/AdminServerUiProperties.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/extensions/UiExtension.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/extensions/UiExtensionsScanner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/web/UiController.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-client/.classpath" afterPath="$PROJECT_DIR$/spring-boot-admin-client/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-client/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-client/pom.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-client/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-client/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-client/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-client/target/classes/META-INF/spring-autoconfigure-metadata.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-cloud/.classpath" afterPath="$PROJECT_DIR$/spring-boot-admin-server-cloud/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-cloud/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server-cloud/pom.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-server-cloud/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server-cloud/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-cloud/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-server-cloud/target/classes/META-INF/spring-autoconfigure-metadata.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/.factorypath" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/.factorypath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/.project" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/.settings/org.eclipse.core.resources.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/spring-boot-admin-server-ui.iml" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/spring-boot-admin-server-ui.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server-ui/pom.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server-ui/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server-ui/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server-ui/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-boot-admin-server-ui/assets/js/sba-core.js.map" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-boot-admin-server-ui/assets/js/sba-core.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-boot-admin-server-ui/assets/js/vendors.js.map" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-boot-admin-server-ui/assets/js/vendors.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server/.classpath" afterPath="$PROJECT_DIR$/spring-boot-admin-server/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server/pom.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/META-INF/spring-autoconfigure-metadata.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo/.classpath" afterPath="$PROJECT_DIR$/zk_demo/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo/.project" afterPath="$PROJECT_DIR$/zk_demo/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo/pom.xml" afterPath="$PROJECT_DIR$/zk_demo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo/target/classes/META-INF/maven/de.codecentric.zy/zk_demo/pom.properties" afterPath="$PROJECT_DIR$/zk_demo/target/classes/META-INF/maven/de.codecentric.zy/zk_demo/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo/target/classes/META-INF/maven/de.codecentric.zy/zk_demo/pom.xml" afterPath="$PROJECT_DIR$/zk_demo/target/classes/META-INF/maven/de.codecentric.zy/zk_demo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo/zk_demo.iml" afterPath="$PROJECT_DIR$/zk_demo/zk_demo.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/spring-boot-admin-server/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-admin-server-cloud/target/" />
     <ignored path="$PROJECT_DIR$/zk_demo/target/" />
@@ -17,74 +54,21 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SpringbootAdminServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zk_demo/src/main/java/com/laozhao/springboot/SpringbootAdminServerApplication.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-admin-server-ui/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zk_demo/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UiController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-admin-server-ui/src/main/java/de/codecentric/boot/admin/server/ui/web/UiController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-              <folding>
-                <element signature="e#3105#3106#0" expanded="true" />
-                <element signature="e#3135#3136#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActuatorSecurity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zk_demo/src/main/java/com/laozhao/springboot/ActuatorSecurity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractAuthenticationFilterConfigurer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../mvnRepo/org/springframework/security/spring-security-config/5.1.0.M2/spring-security-config-5.1.0.M2.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpSecurity.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../mvnRepo/org/springframework/security/spring-security-config/5.1.0.M2/spring-security-config-5.1.0.M2.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="150" column="45" lean-forward="false" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
+            <state relative-caret-position="513">
+              <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -99,6 +83,8 @@
         <option value="$PROJECT_DIR$/zk_demo/src/main/java/com/laozhao/springboot/SpringbootAdminServerApplication.java" />
         <option value="$PROJECT_DIR$/zk_demo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/zk_demo/src/main/java/com/laozhao/springboot/ActuatorSecurity.java" />
+        <option value="$PROJECT_DIR$/spring-boot-admin-server-ui/src/main/java/de/codecentric/boot/admin/server/ui/web/UiController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-admin-server-ui/pom.xml" />
       </list>
     </option>
   </component>
@@ -124,35 +110,14 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="zk_demo" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="zk_demo" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
           <option name="myItemId" value="Spring Boot Admin" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/spring-boot-admin-server-ui/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="6" />
@@ -174,8 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,9 +151,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin-self" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin-server-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,7 +179,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-admin-server-zookeeper2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -478,6 +457,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -644,6 +624,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -703,47 +689,49 @@
       <option name="presentableId" value="Default" />
       <updated>1540796442025</updated>
       <workItem from="1540796448185" duration="3950000" />
+      <workItem from="1540866293196" duration="577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3950000" />
+    <option name="totallyTimeSpent" value="4527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="6" width="1918" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16899893" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30032292" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26931566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27233586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27502692" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -763,6 +751,62 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zk_demo/src/main/java/com/laozhao/springboot/SpringbootAdminServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zk_demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zk_demo/src/main/java/com/laozhao/springboot/ActuatorSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <marker date="1540805495311" expanded="true" signature="1889:1893" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mvnRepo/org/springframework/security/spring-security-config/5.1.0.M2/spring-security-config-5.1.0.M2.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mvnRepo/org/springframework/security/spring-security-config/5.1.0.M2/spring-security-config-5.1.0.M2.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2673">
+          <caret line="150" column="45" lean-forward="false" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin-server-ui/src/main/java/de/codecentric/boot/admin/server/ui/web/UiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <marker date="1540802589572" expanded="true" signature="3171:3182" ph=" { " />
+            <marker date="1540802589572" expanded="true" signature="3197:3203" ph=" }" />
+            <marker date="1540802589572" expanded="false" signature="3301:3312" ph=" { " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-admin-server/src/main/resources/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -791,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2511">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,19 +860,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zk_demo/src/main/java/com/laozhao/springboot/SpringAdminServerZookeeperApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zk_demo/src/main/java/com/laozhao/springboot/SpringAdminServerZookeeperApplication.java" />
     <entry file="file://$PROJECT_DIR$/zk_demo/src/main/java/com/laozhao/springboot/common/RequestFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
           <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,32 +872,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1289">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zk_demo/src/main/java/com/laozhao/springboot/SpringbootAdminServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zk_demo/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="594">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../mvnRepo/org/springframework/security/spring-security-config/5.1.0.M2/spring-security-config-5.1.0.M2.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="2673">
           <caret line="150" column="45" lean-forward="false" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
           <folding />
         </state>
@@ -872,15 +903,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zk_demo/src/main/java/com/laozhao/springboot/ActuatorSecurity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="513">
+          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <marker date="1540805495311" expanded="true" signature="1889:1893" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../mvnRepo/org/springframework/security/spring-security-config/5.1.0.M2/spring-security-config-5.1.0.M2.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="1350">
           <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
           <folding />
         </state>
@@ -888,12 +921,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-admin-server-ui/src/main/java/de/codecentric/boot/admin/server/ui/web/UiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="574">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
-            <element signature="e#3105#3106#0" expanded="true" />
-            <element signature="e#3135#3136#0" expanded="true" />
+            <marker date="1540802589572" expanded="true" signature="3171:3182" ph=" { " />
+            <marker date="1540802589572" expanded="true" signature="3197:3203" ph=" }" />
+            <marker date="1540802589572" expanded="false" signature="3301:3312" ph=" { " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mvnRepo/org/springframework/security/spring-security-config/5.1.0.M2/spring-security-config-5.1.0.M2-sources.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../mvnRepo/org/springframework/security/spring-security-config/5.1.0.M2/spring-security-config-5.1.0.M2-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin-server-ui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -51,6 +51,24 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/exec-maven-plugin -->
+    <dependency>
+		    <groupId>org.codehaus.mojo</groupId>
+		    <artifactId>exec-maven-plugin</artifactId>
+		    <version>1.6.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.jcraft</groupId>
+                    <artifactId>jsch</artifactId>
+                </exclusion>
+            </exclusions>
+    </dependency>
+
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.53</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -58,7 +76,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <executions>
-                    <execution>
+                    <!-- <execution>
                         <id>npm-install</id>
                         <phase>validate</phase>
                         <goals>
@@ -70,7 +88,7 @@
                                 <argument>install</argument>
                             </arguments>
                         </configuration>
-                    </execution>
+                    </execution> -->
                     <execution>
                         <id>npm-build</id>
                         <phase>generate-resources</phase>
@@ -88,7 +106,7 @@
                             </environmentVariables>
                         </configuration>
                     </execution>
-                    <execution>
+                   <!--  <execution>
                         <id>npm-test</id>
                         <phase>test</phase>
                         <goals>
@@ -102,7 +120,7 @@
                                 <argument>test</argument>
                             </arguments>
                         </configuration>
-                    </execution>
+                    </execution> -->
                 </executions>
             </plugin>
             <plugin>

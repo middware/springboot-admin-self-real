@@ -9,48 +9,59 @@
     {
       "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties",
       "name": "spring.boot.admin.ui.cache",
-      "sourceMethod": "public de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties.Cache getCache() ",
+      "sourceMethod": "getCache()",
       "type": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties$Cache"
     }
   ],
   "properties": [
     {
       "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties",
+      "defaultValue": "<img src=\"assets\/img\/icon-spring-boot-admin.svg\"><span>Spring Boot Admin<\/span>",
       "name": "spring.boot.admin.ui.brand",
       "description": "Brand to be shown in then navbar.",
       "type": "java.lang.String"
     },
     {
       "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties",
+      "defaultValue": true,
       "name": "spring.boot.admin.ui.cache-templates",
       "type": "java.lang.Boolean"
     },
     {
       "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties$Cache",
+      "defaultValue": "3600s",
       "name": "spring.boot.admin.ui.cache.max-age",
       "description": "include \"max-age\" directive in Cache-Control http header.",
       "type": "java.time.Duration"
     },
     {
       "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties$Cache",
+      "defaultValue": false,
       "name": "spring.boot.admin.ui.cache.no-cache",
       "description": "include \"no-cache\" directive in Cache-Control http header.",
       "type": "java.lang.Boolean"
     },
     {
       "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties$Cache",
+      "defaultValue": false,
       "name": "spring.boot.admin.ui.cache.no-store",
       "description": "include \"no-store\" directive in Cache-Control http header.",
       "type": "java.lang.Boolean"
     },
     {
       "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties",
+      "defaultValue": [
+        "classpath:\/META-INF\/spring-boot-admin-server-ui\/extensions\/"
+      ],
       "name": "spring.boot.admin.ui.extension-resource-locations",
       "description": "Locations of SBA ui exentsion resources.",
       "type": "java.lang.String[]"
     },
     {
       "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties",
+      "defaultValue": [
+        "classpath:\/META-INF\/spring-boot-admin-server-ui\/"
+      ],
       "name": "spring.boot.admin.ui.resource-locations",
       "description": "Locations of SBA ui resources.",
       "type": "java.lang.String[]"
@@ -63,6 +74,7 @@
     },
     {
       "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties",
+      "defaultValue": "Spring Boot Admin",
       "name": "spring.boot.admin.ui.title",
       "description": "Page-Title to be shown.",
       "type": "java.lang.String"
