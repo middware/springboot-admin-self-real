@@ -66,14 +66,14 @@ public class AdminServerProperties {
          * Time interval to update the status of instances with expired statusInfo
          */
         @DurationUnit(ChronoUnit.MILLIS)
-        private Duration period = Duration.ofMillis(10_000L);
+        private Duration period = Duration.ofMillis(10_000_6L);
 
         /**
          * Lifetime of status. The status won't be updated as long the last status isn't
          * expired.
          */
         @DurationUnit(ChronoUnit.MILLIS)
-        private Duration statusLifetime = Duration.ofMillis(10_000L);
+        private Duration statusLifetime = Duration.ofMillis(10_000_6L);
 
         /**
          * Connect timeout when querying the instances' status and info.

@@ -31,7 +31,7 @@ import org.springframework.web.util.pattern.PathPattern;
 
 import static java.util.stream.Collectors.toList;
 
-
+//@AdminController  使自定义注解起作用 
 public class AdminControllerHandlerMapping extends RequestMappingHandlerMapping {
     private final String adminContextPath;
 

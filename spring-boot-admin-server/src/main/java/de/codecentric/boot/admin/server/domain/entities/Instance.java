@@ -90,6 +90,7 @@ public class Instance implements Serializable {
         return new Instance(id);
     }
 
+    //真正的注册方法  增加 或者删除  同时 获取对应得http请求
     public Instance register(Registration registration) {
         Assert.notNull(registration, "'registration' must not be null");
         if (!this.isRegistered()) {
@@ -161,6 +162,7 @@ public class Instance implements Serializable {
         return this.apply(event, false);
     }
 
+    // 根据事件  执行对应的构造方法 返回对应的实体
     private Instance apply(InstanceEvent event, boolean isNewEvent) {
         Assert.notNull(event, "'event' must not be null");
         Assert.isTrue(this.id.equals(event.getInstance()), "'event' must refer the same instance");

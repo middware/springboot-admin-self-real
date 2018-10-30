@@ -108,17 +108,21 @@ public class AdminServerAutoConfiguration {
         return trigger;
     }
 
+    
+    //请求 在这个里面添加
     @Bean
     @ConditionalOnMissingBean
     public EndpointDetector endpointDetector(InstanceRepository instanceRepository,
                                              InstanceWebClient instanceWebClient) {
         ChainingStrategy strategy = new ChainingStrategy(new QueryIndexEndpointStrategy(instanceWebClient),
-            new ProbeEndpointsStrategy(instanceWebClient, adminServerProperties.getProbedEndpoints()));
+                //adminServerProperties.getProbedEndpoints()  这个返回所有可能的已经定义好的接口 url
+        		new ProbeEndpointsStrategy(instanceWebClient, adminServerProperties.getProbedEndpoints()));
         return new EndpointDetector(instanceRepository, strategy);
     }
 
     @Bean(initMethod = "start", destroyMethod = "stop")
     @ConditionalOnMissingBean
+    // 看这个类貌似 这里还自己定义了事件分发 以及自动的触发机制
     public EndpointDetectionTrigger endpointDetectionTrigger(EndpointDetector endpointDetector,
                                                              Publisher<InstanceEvent> events) {
         return new EndpointDetectionTrigger(endpointDetector, events);
@@ -132,12 +136,14 @@ public class AdminServerAutoConfiguration {
 
     @Bean(initMethod = "start", destroyMethod = "stop")
     @ConditionalOnMissingBean
+    //同样的事件触发机制
     public InfoUpdateTrigger infoUpdateTrigger(InfoUpdater infoUpdater, Publisher<InstanceEvent> events) {
         return new InfoUpdateTrigger(infoUpdater, events);
     }
 
     @Bean
     @ConditionalOnMissingBean(InstanceEventStore.class)
+    // 事件存储 
     public InMemoryEventStore eventStore() {
         return new InMemoryEventStore();
     }
@@ -150,6 +156,7 @@ public class AdminServerAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
+    // 这个是实际请求服务的 运行参数 的http工具类
     public InstanceWebClient instanceWebClient(HttpHeadersProvider httpHeadersProvider,
                                                ObjectProvider<List<InstanceExchangeFilterFunction>> filtersProvider) {
         List<InstanceExchangeFilterFunction> filters = filtersProvider.getIfAvailable(Collections::emptyList);

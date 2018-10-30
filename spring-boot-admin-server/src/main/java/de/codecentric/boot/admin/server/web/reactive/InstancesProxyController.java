@@ -35,6 +35,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 /**
  * Http Handler for proxied requests
+ * 这里请求转发  实际上是去访问 对应的微服务
  */
 @AdminController
 public class InstancesProxyController extends AbstractInstancesProxyController {

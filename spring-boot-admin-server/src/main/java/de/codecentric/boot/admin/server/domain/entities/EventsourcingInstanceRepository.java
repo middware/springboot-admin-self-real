@@ -76,6 +76,7 @@ public class EventsourcingInstanceRepository implements InstanceRepository {
         return findAll().filter(a -> a.isRegistered() && name.equals(a.getRegistration().getName()));
     }
 
+    // 这里保存到内存中
     @Override
     public Mono<Instance> compute(InstanceId id, BiFunction<InstanceId, Instance, Mono<Instance>> remappingFunction) {
         return this.find(id)

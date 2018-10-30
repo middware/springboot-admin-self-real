@@ -137,11 +137,12 @@ public class InstanceDiscoveryListener {
     protected boolean matchesPattern(String serviceId, Set<String> patterns) {
         return patterns.stream().anyMatch(pattern -> PatternMatchUtils.simpleMatch(pattern, serviceId));
     }
-
+    // 这里触发服务的注册或注销事件后 开始进行数据整理
     protected Mono<InstanceId> registerInstance(ServiceInstance instance) {
         try {
             Registration registration = converter.convert(instance).toBuilder().source(SOURCE).build();
             log.debug("Registering discovered instance {}", registration);
+             //从本地的注册列表中进行数据的增加 或删除
             return registry.register(registration);
         } catch (Exception ex) {
             log.error("Couldn't register instance for service {}", instance, ex);

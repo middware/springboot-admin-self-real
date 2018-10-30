@@ -39,8 +39,8 @@ public class StatusUpdateTrigger extends ResubscribingEventHandler<InstanceEvent
     private static final Logger log = LoggerFactory.getLogger(StatusUpdateTrigger.class);
     private final StatusUpdater statusUpdater;
     private Map<InstanceId, Instant> lastQueried = new HashMap<>();
-    private Duration updateInterval = Duration.ofSeconds(10);
-    private Duration statusLifetime = Duration.ofSeconds(10);
+    private Duration updateInterval = Duration.ofSeconds(60*1);
+    private Duration statusLifetime = Duration.ofSeconds(60*1);
     private Disposable intervalSubscription;
 
 
