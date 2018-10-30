@@ -36,9 +36,11 @@ import static org.springframework.util.StringUtils.isEmpty;
  * to the instances metadata.
  *
  * @author Johannes Edmeier
+ * 默认的转换类 这个的加载机制 没研究 不过zk的使用的是这个
  */
 public class DefaultServiceInstanceConverter implements ServiceInstanceConverter {
     private static final Logger LOGGER = LoggerFactory.getLogger(DefaultServiceInstanceConverter.class);
+     //这里 写参数名是可以修改的 自定义
     private static final String KEY_MANAGEMENT_PORT = "management.port";
     private static final String KEY_MANAGEMENT_PATH = "management.context-path";
     private static final String KEY_HEALTH_PATH = "health.path";
@@ -47,10 +49,12 @@ public class DefaultServiceInstanceConverter implements ServiceInstanceConverter
      * Default context-path to be appended to the url of the discovered service for the
      * managment-url.
      */
+   //这里 写参数名是可以修改的 自定义  这个要在服务端配置
     private String managementContextPath = "/actuator";
     /**
      * Default path of the health-endpoint to be used for the health-url of the discovered service.
      */
+  //这里 写参数名是可以修改的 自定义  这个要在服务端配置
     private String healthEndpointPath = "health";
 
     @Override

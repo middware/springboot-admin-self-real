@@ -75,6 +75,18 @@
       "type": "java.lang.String"
     },
     {
+      "defaultValue": "true",
+      "name": "spring.boot.admin.hazelcast.enabled",
+      "description": "Enable Hazelcast support.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "defaultValue": "spring-boot-admin-application-store",
+      "name": "spring.boot.admin.hazelcast.event-store",
+      "description": "Name of backing Hazelcast-Map for storing the instance events",
+      "type": "java.lang.String"
+    },
+    {
       "sourceType": "de.codecentric.boot.admin.server.config.AdminServerProperties$InstanceProxyProperties",
       "name": "spring.boot.admin.instance-proxy.ignored-headers",
       "description": "Headers not to be forwarded when making requests to clients.",

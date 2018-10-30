@@ -24,7 +24,7 @@ import org.springframework.cloud.client.ServiceInstance;
 
 /**
  * Converts {@link ServiceInstance}s to {@link Instance}s.
- *
+ * 接口 进行转换 
  * @author Johannes Edmeier
  */
 public interface ServiceInstanceConverter {

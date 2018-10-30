@@ -35,10 +35,17 @@ import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import com.netflix.discovery.EurekaClient;
-
+/**
+ * 
+ * @author viruser
+ *  主要是配置 从而实现 与注册中心的链接  
+ *  监听服务的注册与注销
+ */
 @Configuration
 @ConditionalOnSingleCandidate(DiscoveryClient.class)
 @ConditionalOnBean(AdminServerMarkerConfiguration.Marker.class)
+//这个在 该包下的 META-INF/additional-spring-configuration-metadata.json的文件中声明  并带有默认值
+//@ConditionalOnProperty 可以通过设置该属性来决定是否启用 通过注册中心来发现服务
 @ConditionalOnProperty(prefix = "spring.boot.admin.discovery", name = "enabled", matchIfMissing = true)
 @AutoConfigureAfter(value = AdminServerAutoConfiguration.class, name = {
     "org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration",
@@ -57,6 +64,9 @@ public class AdminServerDiscoveryAutoConfiguration {
         return listener;
     }
 
+    // 这里转换器加载 是单例模式  如果使用的是Eureka 作为注册中心  使用EurekaServiceInstanceConverter
+    // 否则 使用 DefaultServiceInstanceConverter
+    // @ConditionalOnMissingBean 该标签标表示 上下文不存在该类实例时 触发家标记的方法
     @Configuration
     @ConditionalOnMissingBean({ServiceInstanceConverter.class})
     @ConditionalOnBean(EurekaClient.class)

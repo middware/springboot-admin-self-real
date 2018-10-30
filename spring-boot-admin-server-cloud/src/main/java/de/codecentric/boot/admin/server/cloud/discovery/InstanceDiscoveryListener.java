@@ -44,6 +44,11 @@ import org.springframework.util.PatternMatchUtils;
  * Listener for Heartbeats events to publish all services to the instance registry.
  *
  * @author Johannes Edmeier
+ * 这里使用 @EventListener 来监听 服务的注册和注销事件
+ *  并根据传入的参数（这个在meta-data中 可以进行自定义） 提取信息 转换为 
+ *  该上下文使用的 服务类 Registration  存入内存中
+ *  
+ *  这里url默认使用的和springboot的是一致的 可以定义成自己的
  */
 public class InstanceDiscoveryListener {
     private static final Logger log = LoggerFactory.getLogger(InstanceDiscoveryListener.class);

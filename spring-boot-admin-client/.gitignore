@@ -1,1 +1,9 @@
 /target/
+/.apt_generated/
+/.classpath
+/.factorypath
+/.flattened-pom.xml
+/.gitignore
+/.project
+/.settings/
+/spring-boot-admin-client.iml

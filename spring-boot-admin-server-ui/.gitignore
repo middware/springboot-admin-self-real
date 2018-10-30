@@ -1,5 +1,10 @@
-.DS_Store
-node_modules/
-dist/
-npm-debug.log
-.idea
+/.apt_generated/
+/.babelrc
+/.classpath
+/.eslintignore
+/.eslintrc.js
+/.factorypath
+/.flattened-pom.xml
+/.project
+/.settings/
+/.gitignore
