@@ -74,7 +74,7 @@ public class AdminServerAutoConfiguration {
     }
 
     @Bean
-    @ConditionalOnMissingBean
+    @ConditionalOnMissingBean 
     public InstanceIdGenerator instanceIdGenerator() {
         return new HashingInstanceUrlIdGenerator();
     }
@@ -83,7 +83,11 @@ public class AdminServerAutoConfiguration {
     @Primary
     @ConditionalOnMissingBean
     public CompositeHttpHeadersProvider httpHeadersProvider(Collection<HttpHeadersProvider> delegates) {
-        return new CompositeHttpHeadersProvider(delegates);
+        if(delegates!=null&&delegates.size()>0) {
+        	for(HttpHeadersProvider tt:delegates)
+        		System.out.println("CompositeHttpHeadersProvider--->"+tt.getClass().getName());
+        }
+    	return new CompositeHttpHeadersProvider(delegates);
     }
 
     @Bean
@@ -115,7 +119,8 @@ public class AdminServerAutoConfiguration {
     public EndpointDetector endpointDetector(InstanceRepository instanceRepository,
                                              InstanceWebClient instanceWebClient) {
         ChainingStrategy strategy = new ChainingStrategy(new QueryIndexEndpointStrategy(instanceWebClient),
-                //adminServerProperties.getProbedEndpoints()  这个返回所有可能的已经定义好的接口 url
+                
+        		//adminServerProperties.getProbedEndpoints()  这个返回所有可能的已经定义好的接口 url
         		new ProbeEndpointsStrategy(instanceWebClient, adminServerProperties.getProbedEndpoints()));
         return new EndpointDetector(instanceRepository, strategy);
     }
@@ -162,7 +167,7 @@ public class AdminServerAutoConfiguration {
         List<InstanceExchangeFilterFunction> filters = filtersProvider.getIfAvailable(Collections::emptyList);
         WebClientCustomizer customizer = (webClient) -> filters.forEach(instanceFilter -> webClient.filter(
             InstanceExchangeFilterFunctions.toExchangeFilterFunction(instanceFilter)));
-
+          System.out.println("InstanceWebClient-->"+customizer.toString());
         return new InstanceWebClient(httpHeadersProvider, adminServerProperties.getMonitor().getConnectTimeout(),
             adminServerProperties.getMonitor().getReadTimeout(), customizer);
     }

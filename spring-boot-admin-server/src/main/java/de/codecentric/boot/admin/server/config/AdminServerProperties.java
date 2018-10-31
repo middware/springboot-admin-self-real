@@ -51,10 +51,11 @@ public class AdminServerProperties {
      * For Spring Boot 2.x applications the endpoints should be discovered automatically using the actuator links.
      * For Spring Boot 1.x applications SBA probes for the specified endpoints using an OPTIONS request.
      * If the path differs from the id you can specify this as id:path (e.g. health:ping).
-     */
+     */ 
+    // 这里面 自定义完了 没用 ZYTEST
     private String[] probedEndpoints = {"health", "env", "metrics", "httptrace:trace", "httptrace", "threaddump:dump",
         "threaddump", "jolokia", "info", "logfile", "refresh", "flyway", "liquibase", "heapdump", "loggers",
-        "auditevents", "mappings", "scheduledtasks"};
+        "auditevents", "mappings", "scheduledtasks","ZYTEST"};
 
     public void setContextPath(String contextPath) {
         this.contextPath = PathUtils.normalizePath(contextPath);

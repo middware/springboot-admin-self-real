@@ -50,6 +50,7 @@ public class EventsourcingInstanceRepository implements InstanceRepository {
         this.eventStore = eventStore;
     }
 
+    //  这一步进行事件的分发
     @Override
     public Mono<Instance> save(Instance instance) {
         return eventStore.append(instance.getUnsavedEvents()).then(Mono.just(instance.clearUnsavedEvents()));
@@ -76,7 +77,7 @@ public class EventsourcingInstanceRepository implements InstanceRepository {
         return findAll().filter(a -> a.isRegistered() && name.equals(a.getRegistration().getName()));
     }
 
-    // 这里保存到内存中
+    // 这里保存到内存中  这个的this::save方法 会进行事件的分发 这里 调用了子类的方法
     @Override
     public Mono<Instance> compute(InstanceId id, BiFunction<InstanceId, Instance, Mono<Instance>> remappingFunction) {
         return this.find(id)

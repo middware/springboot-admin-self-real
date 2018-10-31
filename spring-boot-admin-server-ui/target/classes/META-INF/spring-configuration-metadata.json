@@ -33,33 +33,12 @@
     },
     {
       "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties$Cache",
-      "defaultValue": "3600s",
-      "name": "spring.boot.admin.ui.cache.max-age",
-      "description": "include \"max-age\" directive in Cache-Control http header.",
-      "type": "java.time.Duration"
-    },
-    {
-      "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties$Cache",
       "name": "spring.boot.admin.ui.cache.no-cache",
       "description": "include \"no-cache\" directive in Cache-Control http header.",
       "type": "java.lang.Boolean"
     },
     {
       "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties$Cache",
-      "defaultValue": false,
-      "name": "spring.boot.admin.ui.cache.no-cache",
-      "description": "include \"no-cache\" directive in Cache-Control http header.",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties$Cache",
-      "name": "spring.boot.admin.ui.cache.no-store",
-      "description": "include \"no-store\" directive in Cache-Control http header.",
-      "type": "java.lang.Boolean"
-    },
-    {
-      "sourceType": "de.codecentric.boot.admin.server.ui.config.AdminServerUiProperties$Cache",
-      "defaultValue": false,
       "name": "spring.boot.admin.ui.cache.no-store",
       "description": "include \"no-store\" directive in Cache-Control http header.",
       "type": "java.lang.Boolean"

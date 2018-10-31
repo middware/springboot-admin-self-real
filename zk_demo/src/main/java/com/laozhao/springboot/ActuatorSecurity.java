@@ -1,12 +1,12 @@
 package com.laozhao.springboot;
 
-import org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.web.authentication.ForwardAuthenticationSuccessHandler;
 
 /**
  * Created by viruser on 2018/8/13.
@@ -21,13 +21,19 @@ public class ActuatorSecurity extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
-                //.loginPage("/login").permitAll() //登录的路径
-                    .failureForwardUrl("/?error=true")
-                     
+                .loginPage("/loginPage").permitAll() //登录的路径
+                //指定自定义form表单请求的路径
+                .loginProcessingUrl("/authentication/form")    
+                //.successForwardUrl("/")
+                //.successHandler(new ForwardAuthenticationSuccessHandler("/?status=true"))
                 .and()
                 .logout()
                 .logoutUrl("/logout").permitAll()
                 .logoutSuccessUrl("/?logout=true")
+                .and()
+                .authorizeRequests().antMatchers("/assets/**").permitAll()
+              
+              
                 ;
     	 //http.requestMatcher(EndpointRequest.toAnyEndpoint()).authorizeRequests()
          //.anyRequest().permitAll();
@@ -41,7 +47,10 @@ public class ActuatorSecurity extends WebSecurityConfigurerAdapter {
                 .withUser("admin").password(new BCryptPasswordEncoder().encode("password")).roles("USER","ADMIN");
    }
 
+    @Override
     public void configure(WebSecurity web) throws Exception {
-        super.configure(web);
+        //解决静态资源被拦截的问题
+        web.ignoring().antMatchers("/assets/**");
     }
+
 }

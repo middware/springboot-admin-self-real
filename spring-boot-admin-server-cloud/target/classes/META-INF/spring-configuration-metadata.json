@@ -8,26 +8,20 @@
       "type": "de.codecentric.boot.admin.server.cloud.discovery.InstanceDiscoveryListener"
     },
     {
-      "sourceType": "de.codecentric.boot.admin.server.cloud.config.AdminServerDiscoveryAutoConfiguration",
-      "name": "spring.boot.admin.discovery.converter",
-      "sourceMethod": "public de.codecentric.boot.admin.server.cloud.discovery.DefaultServiceInstanceConverter serviceInstanceConverter() ",
-      "type": "de.codecentric.boot.admin.server.cloud.discovery.DefaultServiceInstanceConverter"
-    },
-    {
       "sourceType": "de.codecentric.boot.admin.server.cloud.config.AdminServerDiscoveryAutoConfiguration$EurekaConverterConfiguration",
       "name": "spring.boot.admin.discovery.converter",
       "sourceMethod": "public de.codecentric.boot.admin.server.cloud.discovery.EurekaServiceInstanceConverter serviceInstanceConverter() ",
       "type": "de.codecentric.boot.admin.server.cloud.discovery.EurekaServiceInstanceConverter"
+    },
+    {
+      "sourceType": "de.codecentric.boot.admin.server.cloud.config.AdminServerDiscoveryAutoConfiguration",
+      "name": "spring.boot.admin.discovery.converter",
+      "sourceMethod": "public de.codecentric.boot.admin.server.cloud.discovery.DefaultServiceInstanceConverter serviceInstanceConverter() ",
+      "type": "de.codecentric.boot.admin.server.cloud.discovery.DefaultServiceInstanceConverter"
     }
   ],
   "properties": [
     {
-      "sourceType": "de.codecentric.boot.admin.server.cloud.discovery.DefaultServiceInstanceConverter",
-      "name": "spring.boot.admin.discovery.converter.health-endpoint-path",
-      "description": "Default path of the health-endpoint to be used for the health-url of the discovered service.",
-      "type": "java.lang.String"
-    },
-    {
       "sourceType": "de.codecentric.boot.admin.server.cloud.discovery.EurekaServiceInstanceConverter",
       "name": "spring.boot.admin.discovery.converter.health-endpoint-path",
       "description": "Default path of the health-endpoint to be used for the health-url of the discovered service.",
@@ -35,8 +29,8 @@
     },
     {
       "sourceType": "de.codecentric.boot.admin.server.cloud.discovery.DefaultServiceInstanceConverter",
-      "name": "spring.boot.admin.discovery.converter.management-context-path",
-      "description": "Default context-path to be appended to the url of the discovered service for the managment-url.",
+      "name": "spring.boot.admin.discovery.converter.health-endpoint-path",
+      "description": "Default path of the health-endpoint to be used for the health-url of the discovered service.",
       "type": "java.lang.String"
     },
     {
@@ -46,10 +40,10 @@
       "type": "java.lang.String"
     },
     {
-      "defaultValue": "true",
-      "name": "spring.boot.admin.discovery.enabled",
-      "description": "Enable Spring Cloud Discovery support.",
-      "type": "java.lang.Boolean"
+      "sourceType": "de.codecentric.boot.admin.server.cloud.discovery.DefaultServiceInstanceConverter",
+      "name": "spring.boot.admin.discovery.converter.management-context-path",
+      "description": "Default context-path to be appended to the url of the discovered service for the managment-url.",
+      "type": "java.lang.String"
     },
     {
       "sourceType": "de.codecentric.boot.admin.server.cloud.discovery.InstanceDiscoveryListener",

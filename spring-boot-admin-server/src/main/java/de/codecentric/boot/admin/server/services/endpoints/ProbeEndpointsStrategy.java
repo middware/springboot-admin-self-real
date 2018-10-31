@@ -53,6 +53,7 @@ public class ProbeEndpointsStrategy implements EndpointDetectionStrategy {
 
     @Override
     public Mono<Endpoints> detectEndpoints(Instance instance) {
+    	System.out.println("ProbeEndpointsStrategy in");
         return Flux.fromIterable(endpoints)
                    .flatMap(endpoint -> detectEndpoint(instance, endpoint))
                    .collectList()
@@ -60,25 +61,31 @@ public class ProbeEndpointsStrategy implements EndpointDetectionStrategy {
     }
 
     private Mono<DetectedEndpoint> detectEndpoint(Instance instance, EndpointDefinition endpoint) {
+    	 System.out.println("ProbeEndpointsStrategy-->"+endpoint.getId()+":"+endpoint.getPath());
         URI uri = UriComponentsBuilder.fromUriString(instance.getRegistration().getManagementUrl())
                                       .path("/")
                                       .path(endpoint.getPath())
                                       .build()
                                       .toUri();
         return instanceWebClient.instance(instance).options().uri(uri).exchange().flatMap(this.convert(endpoint, uri));
+        
     }
 
     private Function<ClientResponse, Mono<DetectedEndpoint>> convert(EndpointDefinition endpointDefinition, URI uri) {
-        return response -> {
-            Mono<DetectedEndpoint> endpoint = Mono.empty();
+         //这个是上一步 exchange()的返回值
+    	return response -> {
+             Mono<DetectedEndpoint> endpoint = Mono.empty();
+             System.out.println("ProbeEndpointsStrategy-->"+uri.toString());
             if (response.statusCode().is2xxSuccessful()) {
-                endpoint = Mono.just(DetectedEndpoint.of(endpointDefinition, uri.toString()));
+               //可以在这里之定义消息 然后进行判定
+               endpoint = Mono.just(DetectedEndpoint.of(endpointDefinition, uri.toString()));
             }
             return response.bodyToMono(Void.class).then(endpoint);
         };
     }
 
 
+    //将测试通过的url写入
     private Mono<Endpoints> convert(List<DetectedEndpoint> endpoints) {
         if (endpoints.isEmpty()) {
             return Mono.empty();
@@ -106,6 +113,7 @@ public class ProbeEndpointsStrategy implements EndpointDetectionStrategy {
         private final Endpoint endpoint;
 
         private static DetectedEndpoint of(EndpointDefinition endpointDefinition, String url) {
+        	System.out.println("DetectedEndpoint Id-->"+endpointDefinition.getId());
             return new DetectedEndpoint(endpointDefinition, Endpoint.of(endpointDefinition.getId(), url));
         }
     }
@@ -118,12 +126,17 @@ public class ProbeEndpointsStrategy implements EndpointDetectionStrategy {
         private static EndpointDefinition create(String idWithPath) {
             int idxDelimiter = idWithPath.indexOf(':');
             if (idxDelimiter < 0) {
-                return new EndpointDefinition(idWithPath, idWithPath);
+                return new EndpointDefinition(switchId(idWithPath), idWithPath);
             } else {
-                return new EndpointDefinition(idWithPath.substring(0, idxDelimiter),
+                return new EndpointDefinition(switchId(idWithPath.substring(0, idxDelimiter)),
                     idWithPath.substring(idxDelimiter + 1)
                 );
             }
+        }
+        
+        private static String switchId(String idWithPath) {
+        	System.out.println(idWithPath+"-zy");
+        	return idWithPath+"-zy";
         }
     }
 }

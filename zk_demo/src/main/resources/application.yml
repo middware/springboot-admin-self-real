@@ -1,8 +1,8 @@
 server:
    port: 8081
-logging:
-  level:
-    de.codecentric.boot.admin.server: debug
+#logging:
+  #level:
+    #de.codecentric.boot.admin.server: debug
 spring:
   application:
     name: server-zk

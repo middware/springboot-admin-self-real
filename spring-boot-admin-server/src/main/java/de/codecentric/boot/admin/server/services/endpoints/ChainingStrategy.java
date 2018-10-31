@@ -35,7 +35,9 @@ public class ChainingStrategy implements EndpointDetectionStrategy {
     public Mono<Endpoints> detectEndpoints(Instance instance) {
         Mono<Endpoints> result = Mono.empty();
         for (EndpointDetectionStrategy delegate : delegates) {
-            result = result.switchIfEmpty(delegate.detectEndpoints(instance));
+        	 System.out.println(delegate.getClass().getName());
+        	 //按照打印的结果来看 先直接在线访问 如果有的话 就 不进行单独的请求 没有的话 switchIfEmpty 则继续访问  
+             result = result.switchIfEmpty(delegate.detectEndpoints(instance));
         }
         return result.switchIfEmpty(Mono.just(Endpoints.empty()));
     }

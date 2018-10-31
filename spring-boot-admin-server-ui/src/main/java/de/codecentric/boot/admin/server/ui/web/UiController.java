@@ -85,7 +85,7 @@ public class UiController {
         return "index";
     }
 
-    @GetMapping(path = "/login", produces = MediaType.TEXT_HTML_VALUE)
+    @GetMapping(path = "/loginPage", produces = MediaType.TEXT_HTML_VALUE)
     public String login() {
         return "login";
     }

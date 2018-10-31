@@ -2,42 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de308997-5b1d-4011-ad14-ce0871a59c93" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/config/AdminServerUiAutoConfiguration$ReactiveUiConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/config/AdminServerUiAutoConfiguration$ServletUiConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/config/AdminServerUiAutoConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/config/AdminServerUiProperties$Cache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/config/AdminServerUiProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/extensions/UiExtension.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/extensions/UiExtensionsScanner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/web/UiController.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/extensions/UiExtension.class" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/extensions/UiExtension.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/extensions/UiExtensionsScanner.class" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/de/codecentric/boot/admin/server/ui/extensions/UiExtensionsScanner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/de/codecentric/boot/admin/server/config/AdminServerAutoConfiguration.class" afterPath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/de/codecentric/boot/admin/server/config/AdminServerAutoConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/de/codecentric/boot/admin/server/domain/entities/EventsourcingInstanceRepository.class" afterPath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/de/codecentric/boot/admin/server/domain/entities/EventsourcingInstanceRepository.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-client/.classpath" afterPath="$PROJECT_DIR$/spring-boot-admin-client/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-client/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-client/pom.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-client/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-client/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-client/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-client/target/classes/META-INF/spring-autoconfigure-metadata.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-cloud/.classpath" afterPath="$PROJECT_DIR$/spring-boot-admin-server-cloud/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-cloud/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server-cloud/pom.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-server-cloud/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server-cloud/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-cloud/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-server-cloud/target/classes/META-INF/spring-autoconfigure-metadata.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/.factorypath" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/.factorypath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/.project" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/spring-boot-admin-server-ui.iml" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/spring-boot-admin-server-ui.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-cloud/target/classes/META-INF/spring-configuration-metadata.json" afterPath="$PROJECT_DIR$/spring-boot-admin-server-cloud/target/classes/META-INF/spring-configuration-metadata.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server-ui/pom.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server-ui/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server-ui/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server-ui/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-boot-admin-server-ui/assets/js/sba-core.js.map" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-boot-admin-server-ui/assets/js/sba-core.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-boot-admin-server-ui/assets/js/vendors.js.map" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-boot-admin-server-ui/assets/js/vendors.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server/.classpath" afterPath="$PROJECT_DIR$/spring-boot-admin-server/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-autoconfigure-metadata.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-configuration-metadata.json" afterPath="$PROJECT_DIR$/spring-boot-admin-server-ui/target/classes/META-INF/spring-configuration-metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/config/AdminServerAutoConfiguration.java" afterPath="$PROJECT_DIR$/spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/config/AdminServerAutoConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/domain/entities/EventsourcingInstanceRepository.java" afterPath="$PROJECT_DIR$/spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/domain/entities/EventsourcingInstanceRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server/pom.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/META-INF/maven/de.codecentric.zy/spring-boot-admin-server/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/META-INF/spring-autoconfigure-metadata.properties" afterPath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/META-INF/spring-autoconfigure-metadata.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo/.classpath" afterPath="$PROJECT_DIR$/zk_demo/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo/.project" afterPath="$PROJECT_DIR$/zk_demo/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo/pom.xml" afterPath="$PROJECT_DIR$/zk_demo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/META-INF/spring-configuration-metadata.json" afterPath="$PROJECT_DIR$/spring-boot-admin-server/target/classes/META-INF/spring-configuration-metadata.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo/target/classes/META-INF/maven/de.codecentric.zy/zk_demo/pom.properties" afterPath="$PROJECT_DIR$/zk_demo/target/classes/META-INF/maven/de.codecentric.zy/zk_demo/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo/target/classes/META-INF/maven/de.codecentric.zy/zk_demo/pom.xml" afterPath="$PROJECT_DIR$/zk_demo/target/classes/META-INF/maven/de.codecentric.zy/zk_demo/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zk_demo/zk_demo.iml" afterPath="$PROJECT_DIR$/zk_demo/zk_demo.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-boot-admin-server/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-admin-server-cloud/target/" />
@@ -55,11 +37,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-admin-server-ui/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+            <state relative-caret-position="378">
+              <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminServerAutoConfiguration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/config/AdminServerAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -103,18 +95,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Spring Boot Admin" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/spring-boot-admin-server-ui/node_modules" />
@@ -161,15 +142,151 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-admin-server-ui" />
+              <option name="myItemId" value="spring-boot-admin-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin-self" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin-self" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin-self" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codecentric" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin-self" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-admin-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codecentric" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -690,11 +807,12 @@
       <updated>1540796442025</updated>
       <workItem from="1540796448185" duration="3950000" />
       <workItem from="1540866293196" duration="577000" />
+      <workItem from="1540963995256" duration="1112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4527000" />
+    <option name="totallyTimeSpent" value="5639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="6" width="1918" height="1038" extended-state="0" />
@@ -703,10 +821,11 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30032292" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30032292" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497309" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -721,18 +840,51 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26931566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27502692" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22282024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30032292" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497309" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26931566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22282024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -751,6 +903,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin-server-ui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zk_demo/src/main/java/com/laozhao/springboot/SpringbootAdminServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -765,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2673">
           <caret line="150" column="45" lean-forward="false" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,11 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
           <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <marker date="1540802589572" expanded="true" signature="3171:3182" ph=" { " />
-            <marker date="1540802589572" expanded="true" signature="3197:3203" ph=" }" />
-            <marker date="1540802589572" expanded="false" signature="3301:3312" ph=" { " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,7 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="601">
           <caret line="49" column="26" lean-forward="false" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,7 +1040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2673">
           <caret line="150" column="45" lean-forward="false" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,11 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
           <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding>
-            <marker date="1540802589572" expanded="true" signature="3171:3182" ph=" { " />
-            <marker date="1540802589572" expanded="true" signature="3197:3203" ph=" }" />
-            <marker date="1540802589572" expanded="false" signature="3301:3312" ph=" { " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -935,7 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,14 +1085,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-admin-server-ui/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+        <state relative-caret-position="378">
+          <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SpringLocalModels/de.codecentric.boot.admin.server.config.AdminServerAutoConfiguration">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>de.codecentric.boot.admin.server.config.AdminServerAutoConfiguration</OriginalElement>
+          <nodes>
+            <node x="" y="">de.codecentric.boot.admin.server.config.AdminServerAutoConfiguration</node>
+            <node x="" y="">de.codecentric.boot.admin.server.config.AdminServerWebConfiguration</node>
+            <node x="" y="">org.springframework.boot.context.properties.EnableConfigurationProperties</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="244.0" y="71.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Show filesets as groups</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/de.codecentric.boot.admin.server.config.AdminServerAutoConfiguration">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>de.codecentric.boot.admin.server.config.AdminServerAutoConfiguration</OriginalElement>
+          <nodes>
+            <node x="" y="">de.codecentric.boot.admin.server.config.AdminServerAutoConfiguration</node>
+            <node x="" y="">org.springframework.context.annotation.Configuration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.condition.ConditionalOnBean</node>
+            <node x="" y="">org.springframework.boot.context.properties.EnableConfigurationProperties</node>
+            <node x="" y="">org.springframework.context.annotation.Import</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="225.0" y="335.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/de.codecentric.boot.admin.server.services.InstanceRegistry">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>de.codecentric.boot.admin.server.services.InstanceRegistry</OriginalElement>
+          <nodes>
+            <node x="" y="">de.codecentric.boot.admin.server.services.InstanceRegistry</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="71.5" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/services/InstanceRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/de.codecentric.boot.admin.server.services.StatusUpdater">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>de.codecentric.boot.admin.server.services.StatusUpdater</OriginalElement>
+          <nodes>
+            <node x="" y="">de.codecentric.boot.admin.server.services.StatusUpdater</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="65.5" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/services/StatusUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-admin-server/src/main/java/de/codecentric/boot/admin/server/config/AdminServerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
           <folding />
         </state>
       </provider>
