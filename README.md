@@ -36,7 +36,8 @@
 * 3. 获取微服务所开放的监控指标
 * 4. 暴露web接口 返回 前台信息
 
->这里有两个核心的配置类 AdminServerAutoConfiguration 这个类 定义了前三点所需的bean的 以及系统启动后的初始化方法
+>这里有两个核心的配置类 
+* AdminServerAutoConfiguration 这个类 定义了前三点所需的bean的 以及系统启动后的初始化方法
 ```
 public class AdminServerAutoConfiguration {
     private final AdminServerProperties adminServerProperties;
@@ -166,6 +167,10 @@ public class AdminServerAutoConfiguration {
 }
 
 ```
+
+* AdminServerWebConfiguration   
+  这个类主要是定义ui模块访问该模块的web接口 请求接口对应的方法映射 没有详细分析
+
 # server-admin-ui
 >这个模块 没什么好说的 这里用的是vue 唯一要说的一点是 里面一个插件 的一个依赖的包需要下载新版的 旧版的下不到了 另外 该项目修改后 需要mvn package
 因为 静态文件会node整理到dist文件夹中
