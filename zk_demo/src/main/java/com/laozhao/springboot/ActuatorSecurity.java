@@ -1,5 +1,6 @@
 package com.laozhao.springboot;
 
+import org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -21,9 +22,9 @@ public class ActuatorSecurity extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
-                .loginPage("/loginPage").permitAll() //登录的路径
+                //.loginPage("/login2.html").permitAll() //登录的路径
                 //指定自定义form表单请求的路径
-                .loginProcessingUrl("/authentication/form")    
+                //.loginProcessingUrl("/authentication/form")    
                 //.successForwardUrl("/")
                 //.successHandler(new ForwardAuthenticationSuccessHandler("/?status=true"))
                 .and()
@@ -36,7 +37,7 @@ public class ActuatorSecurity extends WebSecurityConfigurerAdapter {
               
                 ;
     	 //http.requestMatcher(EndpointRequest.toAnyEndpoint()).authorizeRequests()
-         //.anyRequest().permitAll();
+        // .anyRequest().permitAll();
     }
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {

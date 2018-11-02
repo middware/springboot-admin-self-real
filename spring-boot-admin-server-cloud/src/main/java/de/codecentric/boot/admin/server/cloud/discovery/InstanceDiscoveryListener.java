@@ -81,21 +81,25 @@ public class InstanceDiscoveryListener {
 
     @EventListener
     public void onApplicationReady(ApplicationReadyEvent event) {
-        discover();
+    	System.out.println("----------onApplicationReady----------");
+    	discover();
     }
 
     @EventListener
     public void onInstanceRegistered(InstanceRegisteredEvent<?> event) {
-        discover();
+        System.out.println("----------onInstanceRegistered----------");
+    	discover();
     }
 
     @EventListener
     public void onParentHeartbeat(ParentHeartbeatEvent event) {
+    	 System.out.println("----------onParentHeartbeat----------");
         discoverIfNeeded(event.getValue());
     }
 
     @EventListener
     public void onApplicationEvent(HeartbeatEvent event) {
+    	 System.out.println("----------HeartbeatEvent----------");
         discoverIfNeeded(event.getValue());
     }
 
@@ -112,6 +116,7 @@ public class InstanceDiscoveryListener {
             .flatMap(this::registerInstance)
             .collect(Collectors.toSet())
             .flatMap(this::removeStaleInstances)
+            //下面这不 必须有 有他 上面的一对方法才能真正起作用
             .subscribe(v -> { }, ex -> log.error("Unexpected error.", ex));
     }
 

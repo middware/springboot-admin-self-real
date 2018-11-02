@@ -41,7 +41,7 @@ public class BasicAuthHttpHeaderProvider implements HttpHeadersProvider {
         if (StringUtils.hasText(username) && StringUtils.hasText(password)) {
             headers.set(HttpHeaders.AUTHORIZATION, encode(username, password));
         }
-
+       //System.out.println("BasicAuthHttpHeaderProvider---->"+username+":"+password); 
         return headers;
     }
 

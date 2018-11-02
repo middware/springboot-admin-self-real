@@ -70,7 +70,7 @@ public class StatusUpdateTrigger extends ResubscribingEventHandler<InstanceEvent
         return publisher.subscribeOn(Schedulers.newSingle("status-updater"))
                         .filter(event -> event instanceof InstanceRegisteredEvent ||
                                          event instanceof InstanceRegistrationUpdatedEvent)
-                        .flatMap(event -> updateStatus(event.getInstance()));
+                        .flatMap(event -> updateStatus(event));
     }
 
     @Override
@@ -87,11 +87,15 @@ public class StatusUpdateTrigger extends ResubscribingEventHandler<InstanceEvent
         return Flux.fromIterable(lastQueried.entrySet())
                    .filter(e -> e.getValue().isBefore(expiryInstant))
                    .map(Map.Entry::getKey)
-                   .flatMap(this::updateStatus)
+                   .flatMap(this::updateStatusId)
                    .then();
     }
 
-    protected Mono<Void> updateStatus(InstanceId instanceId) {
+    protected Mono<Void> updateStatus(InstanceEvent event) {
+    	System.out.println("EndpointDetectionTrigger deal event--->hash："+event.hashCode()+" name:"+event.getClass().getSimpleName()+" time:"+System.nanoTime());
+        return statusUpdater.updateStatus(event.getInstance()).doFinally((s) -> lastQueried.put(event.getInstance(), Instant.now()));
+    }
+    protected Mono<Void> updateStatusId(InstanceId instanceId) {
         return statusUpdater.updateStatus(instanceId).doFinally((s) -> lastQueried.put(instanceId, Instant.now()));
     }
 

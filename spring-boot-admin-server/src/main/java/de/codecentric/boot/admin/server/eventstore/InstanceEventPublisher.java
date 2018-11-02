@@ -40,7 +40,7 @@ public class InstanceEventPublisher implements Publisher<InstanceEvent> {
 
     protected void publish(List<InstanceEvent> events) {
         events.forEach(event -> {
-            log.debug("Event published {}", event);
+            log.error("Event published  name:"+event.getClass().getSimpleName()+" time:"+System.nanoTime());
             this.sink.next(event);
         });
     }

@@ -80,7 +80,7 @@ public class QueryIndexEndpointStrategy implements EndpointDetectionStrategy {
                                            .entrySet()
                                            .stream()
                                            .filter(e -> !e.getKey().equals("self") && !e.getValue().isTemplated())
-                                           .map(e -> Endpoint.of(e.getKey()+"-zy", e.getValue().getHref()))
+                                           .map(e -> Endpoint.of(e.getKey(), e.getValue().getHref()))
                                            .collect(Collectors.toList());
         if (endpoints.isEmpty()) {
             return Mono.empty();

@@ -42,6 +42,7 @@ public class EndpointDetectionTrigger extends ResubscribingEventHandler<Instance
     }
 
     protected Mono<Void> detectEndpoints(InstanceEvent event) {
+    	System.out.println("EndpointDetectionTrigger deal event--->hash："+event.hashCode()+" name:"+event.getClass().getSimpleName()+" time:"+System.nanoTime());
         return endpointDetector.detectEndpoints(event.getInstance());
     }
 }

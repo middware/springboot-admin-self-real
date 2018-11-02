@@ -105,8 +105,10 @@ public class AdminServerAutoConfiguration {
 
     @Bean(initMethod = "start", destroyMethod = "stop")
     @ConditionalOnMissingBean
+    //定时任务 更新服务的状态
     public StatusUpdateTrigger statusUpdateTrigger(StatusUpdater statusUpdater, Publisher<InstanceEvent> events) {
-        StatusUpdateTrigger trigger = new StatusUpdateTrigger(statusUpdater, events);
+    	System.out.println("StatusUpdateTrigger--->"+events.getClass().getName()+"---hash:"+events.hashCode());
+    	StatusUpdateTrigger trigger = new StatusUpdateTrigger(statusUpdater, events);
         trigger.setUpdateInterval(adminServerProperties.getMonitor().getPeriod());
         trigger.setStatusLifetime(adminServerProperties.getMonitor().getStatusLifetime());
         return trigger;
@@ -116,9 +118,11 @@ public class AdminServerAutoConfiguration {
     //请求 在这个里面添加
     @Bean
     @ConditionalOnMissingBean
+    // 开放 的端口探测  这里定义了两个 一个直接在线请求  一个单独请求  在线请求失败后 分别单独请求
     public EndpointDetector endpointDetector(InstanceRepository instanceRepository,
                                              InstanceWebClient instanceWebClient) {
-        ChainingStrategy strategy = new ChainingStrategy(new QueryIndexEndpointStrategy(instanceWebClient),
+        
+    	ChainingStrategy strategy = new ChainingStrategy(new QueryIndexEndpointStrategy(instanceWebClient),
                 
         		//adminServerProperties.getProbedEndpoints()  这个返回所有可能的已经定义好的接口 url
         		new ProbeEndpointsStrategy(instanceWebClient, adminServerProperties.getProbedEndpoints()));
@@ -130,7 +134,8 @@ public class AdminServerAutoConfiguration {
     // 看这个类貌似 这里还自己定义了事件分发 以及自动的触发机制
     public EndpointDetectionTrigger endpointDetectionTrigger(EndpointDetector endpointDetector,
                                                              Publisher<InstanceEvent> events) {
-        return new EndpointDetectionTrigger(endpointDetector, events);
+    	System.out.println("EndpointDetectionTrigger--->"+events.getClass().getName()+"---hash:"+events.hashCode());
+    	return new EndpointDetectionTrigger(endpointDetector, events);
     }
 
     @Bean
@@ -143,7 +148,8 @@ public class AdminServerAutoConfiguration {
     @ConditionalOnMissingBean
     //同样的事件触发机制
     public InfoUpdateTrigger infoUpdateTrigger(InfoUpdater infoUpdater, Publisher<InstanceEvent> events) {
-        return new InfoUpdateTrigger(infoUpdater, events);
+    	System.out.println("InfoUpdateTrigger--->"+events.getClass().getName()+"---hash:"+events.hashCode());
+    	return new InfoUpdateTrigger(infoUpdater, events);
     }
 
     @Bean

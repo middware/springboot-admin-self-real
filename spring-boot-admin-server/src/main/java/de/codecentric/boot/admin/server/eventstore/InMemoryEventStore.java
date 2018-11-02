@@ -38,6 +38,11 @@ public class InMemoryEventStore extends ConcurrentMapEventStore {
 
     @Override
     public Mono<Void> append(List<InstanceEvent> events) {
+    	/*StackTraceElement[] ss=Thread.currentThread().getStackTrace();
+    	for(StackTraceElement item:ss) {
+    		 System.out.println("------------------------------>>"+item.getClassName()+":"+item.getMethodName());
+    	}*/
+    	
         return super.append(events).then(Mono.fromRunnable(() -> this.publish(events)));
     }
 }

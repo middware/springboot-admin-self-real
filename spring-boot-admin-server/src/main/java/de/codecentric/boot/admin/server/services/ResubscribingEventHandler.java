@@ -38,6 +38,7 @@ public abstract class ResubscribingEventHandler<T extends InstanceEvent> {
     }
 
     public void start() {
+    	// 这一步是 说 你的消息 被我订阅了 
         subscription = Flux.from(publisher)
                            .log(log.getName(), Level.FINEST)
                            .doOnSubscribe(subscription -> log.debug("Subscribed to {} events", eventType))

@@ -1,0 +1,10 @@
+de\codecentric\boot\admin\server\ui\config\AdminServerUiAutoConfiguration.class
+de\codecentric\boot\admin\server\ui\config\AdminServerUiProperties$Cache.class
+META-INF\spring-configuration-metadata.json
+de\codecentric\boot\admin\server\ui\config\AdminServerUiAutoConfiguration$ServletUiConfiguration.class
+de\codecentric\boot\admin\server\ui\extensions\UiExtension.class
+de\codecentric\boot\admin\server\ui\web\UiController.class
+de\codecentric\boot\admin\server\ui\config\AdminServerUiProperties.class
+META-INF\spring-autoconfigure-metadata.properties
+de\codecentric\boot\admin\server\ui\config\AdminServerUiAutoConfiguration$ReactiveUiConfiguration.class
+de\codecentric\boot\admin\server\ui\extensions\UiExtensionsScanner.class

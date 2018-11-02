@@ -44,6 +44,7 @@ public class InfoUpdateTrigger extends ResubscribingEventHandler<InstanceEvent> 
     }
 
     protected Mono<Void> updateInfo(InstanceEvent event) {
+    	System.out.println("InfoUpdateTrigger deal event--->hash："+event.hashCode()+" name:"+event.getClass().getSimpleName()+" time:"+System.nanoTime());
         return infoUpdater.updateInfo(event.getInstance());
     }
 }

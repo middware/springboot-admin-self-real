@@ -135,7 +135,7 @@ public class ProbeEndpointsStrategy implements EndpointDetectionStrategy {
         }
         
         private static String switchId(String idWithPath) {
-        	System.out.println(idWithPath+"-zy");
+        	//System.out.println(idWithPath+"-zy");
         	return idWithPath+"-zy";
         }
     }
